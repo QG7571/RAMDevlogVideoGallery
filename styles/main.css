@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: squarewave;
+    src: url(../fonts/squarewave/Squarewave.ttf);
+}
 body {
+    font-family: squarewave;
+    font-size: 170%;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-areas: 
@@ -102,9 +108,6 @@ article h4 {
         'header'
         'videos'
         'footer';
-    }
-    header {
-
     }
     section {
         max-width: 100%;
