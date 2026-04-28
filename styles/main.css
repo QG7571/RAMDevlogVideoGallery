@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: whitesmoke;
 }
 @font-face {
     font-family: squarewave;
@@ -18,6 +19,7 @@ body {
     'footer footer';
     background-image: linear-gradient(to bottom, #0e0e0e, #890007);
     position: relative;
+    color: crimson;
 }
 header {
     grid-area: header;
